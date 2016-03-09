@@ -60,6 +60,7 @@ abstract class HttpData
 			} else {
 
 				// Add the 'compressed' item and serialize.
+				$data = [static::DATA_INDEX => $data];
 				$data['compressed'] = false;
 				$data = serialize($data);
 			}
@@ -105,6 +106,8 @@ abstract class HttpData
 
 				// Unserialize again.
 				$data = unserialize($data);
+			} else {
+				$data = $data[static::DATA_INDEX];
 			}
 		}
 

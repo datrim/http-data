@@ -20,8 +20,6 @@
 		"classmap": ["tests/TestCase.php"]
 	},
 	"require-dev": {
-		"phpunit/phpunit": "^5.2",
-		"illuminate/database": "^5.2",
-		"illuminate/cache": "^5.2"
+		"phpunit/phpunit": "^5.2"
 	}
 }
