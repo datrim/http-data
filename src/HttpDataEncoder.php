@@ -10,7 +10,7 @@ namespace Datrim\HttpData;
 /**
  * Class HttpDataEncoder
  *
- * @package App\Core\HttpData
+ * @package Datrim\HttpData
  */
 class HttpDataEncoder extends HttpData
 {

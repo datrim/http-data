@@ -10,6 +10,6 @@ namespace Datrim\HttpData\Exceptions;
 /**
  * Class HttpDataDecodeException
  *
- * @package App\Core\HttpData\Exceptions
+ * @package Datrim\HttpData\Exceptions
  */
 class HttpDataDecodeException extends HttpDataException {}

@@ -10,6 +10,6 @@ namespace Datrim\HttpData\Exceptions;
 /**
  * Class HttpDataException
  *
- * @package App\Core\HttpData\Exceptions
+ * @package Datrim\HttpData\Exceptions
  */
 class HttpDataException extends \RuntimeException {}
