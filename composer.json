@@ -1,0 +1,27 @@
+{
+    "name": "datrim/http-data",
+    "description": "Http data compression and serialization",
+    "license": "MIT",
+  	"keywords": ["http", "data", "serialization", "compression"],
+    "authors": [
+        {
+            "name": "Chris Pritchard",
+            "email": "chris@datrim.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+  	"autoload": {
+  		"psr-4": {
+			"Datrim\\HttpData\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"classmap": ["tests/TestCase.php"]
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^5.2",
+		"illuminate/database": "^5.2",
+		"illuminate/cache": "^5.2"
+	}
+}
