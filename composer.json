@@ -9,8 +9,10 @@
             "email": "chris@datrim.co.uk"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "minimum-stability": "stable",
+    "require": {
+	  "php": ">=5.5.9"
+	},
   	"autoload": {
   		"psr-4": {
 			"Datrim\\HttpData\\": "src/"
