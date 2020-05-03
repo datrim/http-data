@@ -1,4 +1,6 @@
 <?php
+/** @noinspection PhpComposerExtensionStubsInspection */
+declare(strict_types=1);
 /**
  * Created by chris.
  * Date: 06/03/13
@@ -65,7 +67,6 @@ abstract class HttpData
 				$data = serialize($data);
 			}
 		}
-
 		return $data;
 	}
 

@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * Created by chris.
  * Date: 08/03/16
